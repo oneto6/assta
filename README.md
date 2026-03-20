@@ -61,10 +61,16 @@ Project Organization
 ⚙️ Installation & Setup
 
     Clone the project:
-    git clone https://github.com/oneto6/assta
+    git clone git clone https://github.com/oneto6/assta.git
 
     Fetch dependencies:
     flutter pub get
 
     Run the application:
     flutter run
+
+🌐 Live Preview
+
+    You can check out the live GitHub Pages version of the app here:
+    https://oneto6.github.io/assta/
+
