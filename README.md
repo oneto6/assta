@@ -1,17 +1,36 @@
-# assistive_app
+# Demo Assets
 
-A new Flutter project.
+This repository contains demo animations and GIFs used in the project.  
+All assets are stored in the `demo_assets/` folder and are embedded below for quick reference.
 
-## Getting Started
+## Assets Preview
 
-This project is a starting point for a Flutter application.
+### Load More
+![Load More](demo_assets/loadmore.gif)
 
-A few resources to get you started if this is your first Flutter project:
+### New Prompt
+![New Prompt](demo_assets/new_prompt.gif)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Refresh
+![Refresh](demo_assets/refresh.gif)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Suggestion Open
+![Suggestion Open](demo_assets/suggestion_open.gif)
+
+### New Chat
+![New Chat](demo_assets/new_chat.gif)
+
+### Open Old Session
+![Open Old Session](demo_assets/open_old_session.gif)
+
+### Suggestion Animation
+![Suggestion Animation](demo_assets/suggestion_animation.gif)
+
+## Usage
+
+These GIFs can be used to demonstrate UI behavior in presentations, tutorials, or documentation.  
+You can include them in your Flutter project or web app as demo assets.
+
+## License
+
+All assets are proprietary to the project and intended for demonstration purposes only.
