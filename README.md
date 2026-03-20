@@ -1,55 +1,73 @@
-# Demo Assets
+Smart Assistant App – Assta 
 
-This repository contains demo animations and GIFs used in the project.  
-All assets are stored in the `demo_assets/` folder and are embedded below for quick reference.
+🚀 Key Features
 
-## Assets Gallery
+    Paginated Suggestions: Implements infinite scrolling using the GET /suggestions endpoint. It handles page-based data fetching with integrated loading and error states.
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    Interactive Chat UI: A clean, responsive chat interface that simulates real-time interaction with a dummy assistant.
 
-<!-- Row 1 -->
+    Persistent Session Management: Features a specialized navigation drawer for managing and switching between chat sessions.
+
+    Reactive State Architecture: Built entirely with Riverpod for predictable, unidirectional data flow and easy testing.
+
+    Declarative Routing: Uses GoRouter for robust navigation management and deep-linking capabilities.
+
+📱 Visual Gallery
+
+<div style="display: flex; flex-wrap: wrap; gap: 15px;">
 <div style="flex: 1 1 45%; text-align: center;">
-  <img src="demo_assets/refresh.gif" alt="Refresh" height="400"/><br>
-  Refresh
-</div>
-<div style="flex: 1 1 45%; text-align: center;">
-  <img src="demo_assets/loadmore.gif" alt="Load More" height="400"/><br>
-  Load More
-</div>
+<img src="demo_assets/refresh.gif" alt="Refresh" height="350"/>
 
-<!-- Row 2 -->
-<div style="flex: 1 1 45%; text-align: center;">
-  <img src="demo_assets/new_chat.gif" alt="New Chat" height="400"/><br>
-  New Chat
+<b>Pull to Refresh</b>
 </div>
 <div style="flex: 1 1 45%; text-align: center;">
-  <img src="demo_assets/open_old_session.gif" alt="Open Old Session" height="400"/><br>
-  Open Old Session
-</div>
+<img src="demo_assets/loadmore.gif" alt="Load More" height="350"/>
 
-<!-- Row 3 -->
-<div style="flex: 1 1 45%; text-align: center;">
-  <img src="demo_assets/new_prompt.gif" alt="New Prompt" height="400"/><br>
-  New Prompt
+<b>Infinite Scroll Pagination</b>
 </div>
 <div style="flex: 1 1 45%; text-align: center;">
-  <img src="demo_assets/suggestion_open.gif" alt="Suggestion Open" height="400"/><br>
-  Suggestion Open
-</div>
+<img src="demo_assets/new_chat.gif" alt="New Chat" height="350"/>
 
-<!-- Row 4 -->
+<b>Interactive Chat UI</b>
+</div>
 <div style="flex: 1 1 45%; text-align: center;">
-  <img src="demo_assets/suggestion_animation.gif" alt="Suggestion Animation" height="400"/><br>
-  Suggestion Animation
+<img src="demo_assets/suggestion_animation.gif" alt="Suggestion" height="350"/>
+
+<b>Polished UI Transitions</b>
+</div>
 </div>
 
-</div>
+🛠 Tech Stack & Architecture
 
-## Usage
+    Framework: Flutter (Latest Stable) 
 
-These GIFs can be used to demonstrate UI behavior in presentations, tutorials, or documentation.  
-You can include them in your Flutter project or web app as demo assets.
+    State Management: Riverpod 
 
-## License
+    Navigation: GoRouter 
 
-All assets are proprietary to the project and intended for demonstration purposes only.
+    Networking: http (Standard library for API consumption) 
+
+    Persistence: Handled via custom session logic 
+
+Project Organization
+
+    The project follows a modular structure to ensure separation of concerns and maintainability:
+    Plaintext
+
+    lib/
+    ├── api/          # http client and network API abstraction
+    ├── model/        # Immutable Data Models (Suggestion, Prompt, Session)
+    ├── provider/     # Riverpod providers for business logic and state
+    ├── ui/           # Responsive screens and reusable UI components
+    └── extension/    # Helper extensions for cleaner Dart code
+
+⚙️ Installation & Setup
+
+    Clone the project:
+    git clone [your-repo-url]
+
+    Fetch dependencies:
+    flutter pub get
+
+    Run the application:
+    flutter run
