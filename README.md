@@ -6,8 +6,6 @@ Smart Assistant App – Assta
 
     Interactive Chat UI: A clean, responsive chat interface that simulates real-time interaction with a dummy assistant.
 
-    Persistent Session Management: Features a specialized navigation drawer for managing and switching between chat sessions.
-
     Reactive State Architecture: Built entirely with Riverpod for predictable, unidirectional data flow and easy testing.
 
     Declarative Routing: Uses GoRouter for robust navigation management and deep-linking capabilities.
@@ -47,7 +45,6 @@ Smart Assistant App – Assta
 
     Networking: http (Standard library for API consumption) 
 
-    Persistence: Handled via custom session logic 
 
 Project Organization
 
@@ -64,7 +61,7 @@ Project Organization
 ⚙️ Installation & Setup
 
     Clone the project:
-    git clone [your-repo-url]
+    git clone https://github.com/oneto6/assta
 
     Fetch dependencies:
     flutter pub get
