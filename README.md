@@ -5,45 +5,45 @@ All assets are stored in the `demo_assets/` folder and are embedded below for qu
 
 ## Assets Gallery
 
-<table>
-<tr>
-  <td align="center">
-    <img src="demo_assets/loadmore.gif" alt="Load More" height="200"/><br>
-    Load More
-  </td>
-  <td align="center">
-    <img src="demo_assets/new_prompt.gif" alt="New Prompt" height="200"/><br>
-    New Prompt
-  </td>
-</tr>
-<tr>
-  <td align="center">
-    <img src="demo_assets/refresh.gif" alt="Refresh" height="200"/><br>
-    Refresh
-  </td>
-  <td align="center">
-    <img src="demo_assets/suggestion_open.gif" alt="Suggestion Open" height="200"/><br>
-    Suggestion Open
-  </td>
-</tr>
-<tr>
-  <td align="center">
-    <img src="demo_assets/new_chat.gif" alt="New Chat" height="200"/><br>
-    New Chat
-  </td>
-  <td align="center">
-    <img src="demo_assets/open_old_session.gif" alt="Open Old Session" height="200"/><br>
-    Open Old Session
-  </td>
-</tr>
-<tr>
-  <td align="center">
-    <img src="demo_assets/suggestion_animation.gif" alt="Suggestion Animation" height="200"/><br>
-    Suggestion Animation
-  </td>
-  <td></td>
-</tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+<!-- Row 1 -->
+<div style="flex: 1 1 45%; text-align: center;">
+  <img src="demo_assets/refresh.gif" alt="Refresh" height="400"/><br>
+  Refresh
+</div>
+<div style="flex: 1 1 45%; text-align: center;">
+  <img src="demo_assets/loadmore.gif" alt="Load More" height="400"/><br>
+  Load More
+</div>
+
+<!-- Row 2 -->
+<div style="flex: 1 1 45%; text-align: center;">
+  <img src="demo_assets/new_chat.gif" alt="New Chat" height="400"/><br>
+  New Chat
+</div>
+<div style="flex: 1 1 45%; text-align: center;">
+  <img src="demo_assets/open_old_session.gif" alt="Open Old Session" height="400"/><br>
+  Open Old Session
+</div>
+
+<!-- Row 3 -->
+<div style="flex: 1 1 45%; text-align: center;">
+  <img src="demo_assets/new_prompt.gif" alt="New Prompt" height="400"/><br>
+  New Prompt
+</div>
+<div style="flex: 1 1 45%; text-align: center;">
+  <img src="demo_assets/suggestion_open.gif" alt="Suggestion Open" height="400"/><br>
+  Suggestion Open
+</div>
+
+<!-- Row 4 -->
+<div style="flex: 1 1 45%; text-align: center;">
+  <img src="demo_assets/suggestion_animation.gif" alt="Suggestion Animation" height="400"/><br>
+  Suggestion Animation
+</div>
+
+</div>
 
 ## Usage
 
