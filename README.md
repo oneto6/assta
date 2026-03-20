@@ -74,3 +74,11 @@ Project Organization
     You can check out the live GitHub Pages version of the app here:
     https://oneto6.github.io/assta/
 
+## 📥 Download & Releases
+
+    You can download the latest **Android APK** or other build artifacts from the GitHub Releases page:
+
+    [**Download Latest Release**](https://github.com/oneto6/assta/releases)
+
+    > Note: The releases section contains pre-built binaries for easy installation.  
+    > For source code and building from scratch, see the instructions above.
