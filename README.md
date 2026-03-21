@@ -10,7 +10,7 @@ Smart Assistant App – Assta
 
     Declarative Routing: Uses GoRouter for robust navigation management and deep-linking capabilities.
 
-📱 Visual Gallery
+## 📱 Visual Gallery
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px;">
 <div style="flex: 1 1 45%; text-align: center;">
@@ -35,26 +35,12 @@ Smart Assistant App – Assta
 </div>
 </div>
 
-## 📸 Additional Screenshots
+📸 Additional Screenshots
 
 Here’s a visual overview of the Smart Assistant App – Assta.  
 These screenshots showcase additional features, screens, and interactions in the app.
 
 <table>
-  <tr>
-    <td align="center" height="250">
-      <img src="demo_assets/history.png" alt="History" height="200"><br>
-      <b>History</b>
-    </td>
-    <td align="center" height="250">
-      <img src="demo_assets/prompt_loading.png" alt="Prompt Loading" height="200"><br>
-      <b>Prompt Loading</b>
-    </td>
-    <td align="center" height="250">
-      <img src="demo_assets/chat.png" alt="Chat" height="200"><br>
-      <b>Chat</b>
-    </td>
-  </tr>
   <tr>
     <td align="center" height="250">
       <img src="demo_assets/homepage.png" alt="Homepage" height="200"><br>
@@ -65,13 +51,28 @@ These screenshots showcase additional features, screens, and interactions in the
       <b>New Chat</b>
     </td>
     <td align="center" height="250">
-      <img src="demo_assets/prompt_reply.png" alt="Prompt Reply" height="200"><br>
-      <b>Prompt Reply</b>
+      <img src="demo_assets/history.png" alt="History" height="200"><br>
+      <b>History</b>
     </td>
   </tr>
+  <tr>
+    <td align="center" height="250">
+      <img src="demo_assets/prompt_loading.png" alt="Prompt Loading" height="200"><br>
+      <b>Prompt Loading</b>
+    </td>
+    <td align="center" height="250">
+      <img src="demo_assets/chat.png" alt="Chat Over view" height="200"><br>
+      <b>Chat</b>
+    </td>
+      
+    <td align="center" height="250">
+      <img src="demo_assets/prompt_reply.png" alt="Prompt Reply" height="200"><br>
+      <b>Prompt Reply</b>
+    </td>      
+  </tr>    
 </table>
 
-🛠 Tech Stack & Architecture
+## 🛠 Tech Stack & Architecture
 
     Framework: Flutter (Latest Stable) 
 
@@ -94,7 +95,7 @@ Project Organization
     ├── ui/           # Responsive screens and reusable UI components
     └── extension/    # Helper extensions for cleaner Dart code
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
     Clone the project:
     git clone git clone https://github.com/oneto6/assta.git
@@ -105,7 +106,7 @@ Project Organization
     Run the application:
     flutter run
 
-🌐 Live Preview
+## 🌐 Live Preview
 
     You can check out the live GitHub Pages version of the app here:
     https://oneto6.github.io/assta/
