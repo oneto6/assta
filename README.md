@@ -40,38 +40,36 @@ Smart Assistant App – Assta
 Here’s a visual overview of the Smart Assistant App – Assta.  
 These screenshots showcase additional features, screens, and interactions in the app.
 
-<div style="
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  align-items: center;
-">
-  <div style="text-align: center; height: 250px;">
-    <img src="demo_assets/history.png" alt="History" style="max-height:100%; width:auto;">
-    <b>History</b>
-  </div>
-  <div style="text-align: center; height: 250px;">
-    <img src="demo_assets/prompt_loading.png" alt="Prompt Loading" style="max-height:100%; width:auto;">
-    <b>Prompt Loading</b>
-  </div>
-  <div style="text-align: center; height: 250px;">
-    <img src="demo_assets/chat.png" alt="Chat" style="max-height:100%; width:auto;">
-    <b>Chat</b>
-  </div>
-
-  <div style="text-align: center; height: 250px;">
-    <img src="demo_assets/homepage.png" alt="Homepage" style="max-height:100%; width:auto;">
-    <b>Homepage</b>
-  </div>
-  <div style="text-align: center; height: 250px;">
-    <img src="demo_assets/new_chat.png" alt="New Chat" style="max-height:100%; width:auto;">
-    <b>New Chat</b>
-  </div>
-  <div style="text-align: center; height: 250px;">
-    <img src="demo_assets/prompt_reply.png" alt="Prompt Reply" style="max-height:100%; width:auto;">
-    <b>Prompt Reply</b>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center" height="250">
+      <img src="demo_assets/history.png" alt="History" height="200"><br>
+      <b>History</b>
+    </td>
+    <td align="center" height="250">
+      <img src="demo_assets/prompt_loading.png" alt="Prompt Loading" height="200"><br>
+      <b>Prompt Loading</b>
+    </td>
+    <td align="center" height="250">
+      <img src="demo_assets/chat.png" alt="Chat" height="200"><br>
+      <b>Chat</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" height="250">
+      <img src="demo_assets/homepage.png" alt="Homepage" height="200"><br>
+      <b>Homepage</b>
+    </td>
+    <td align="center" height="250">
+      <img src="demo_assets/new_chat.png" alt="New Chat" height="200"><br>
+      <b>New Chat</b>
+    </td>
+    <td align="center" height="250">
+      <img src="demo_assets/prompt_reply.png" alt="Prompt Reply" height="200"><br>
+      <b>Prompt Reply</b>
+    </td>
+  </tr>
+</table>
 
 🛠 Tech Stack & Architecture
 
