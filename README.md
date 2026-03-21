@@ -61,10 +61,9 @@ These screenshots showcase additional features, screens, and interactions in the
       <b>Prompt Loading</b>
     </td>
     <td align="center" height="250">
-      <img src="demo_assets/chat.png" alt="Chat Over view" height="200"><br>
-      <b>Chat</b>
+      <img src="demo_assets/chat.png" alt="Chat Over View" height="200"><br>
+      <b>Chat Over View</b>
     </td>
-      
     <td align="center" height="250">
       <img src="demo_assets/prompt_reply.png" alt="Prompt Reply" height="200"><br>
       <b>Prompt Reply</b>
