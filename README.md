@@ -40,31 +40,34 @@ Smart Assistant App – Assta
 Here’s a visual overview of the Smart Assistant App – Assta.  
 These screenshots showcase additional features, screens, and interactions in the app.
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <!-- Row 1 -->
-  <div style="flex: 1 1 30%; text-align: center; height: 250px;">
+<div style="
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: center;
+">
+  <div style="text-align: center; height: 250px;">
     <img src="demo_assets/history.png" alt="History" style="max-height:100%; width:auto;">
     <b>History</b>
   </div>
-  <div style="flex: 1 1 30%; text-align: center; height: 250px;">
+  <div style="text-align: center; height: 250px;">
     <img src="demo_assets/prompt_loading.png" alt="Prompt Loading" style="max-height:100%; width:auto;">
     <b>Prompt Loading</b>
   </div>
-  <div style="flex: 1 1 30%; text-align: center; height: 250px;">
+  <div style="text-align: center; height: 250px;">
     <img src="demo_assets/chat.png" alt="Chat" style="max-height:100%; width:auto;">
     <b>Chat</b>
   </div>
 
-  <!-- Row 2 -->
-  <div style="flex: 1 1 30%; text-align: center; height: 250px;">
+  <div style="text-align: center; height: 250px;">
     <img src="demo_assets/homepage.png" alt="Homepage" style="max-height:100%; width:auto;">
     <b>Homepage</b>
   </div>
-  <div style="flex: 1 1 30%; text-align: center; height: 250px;">
+  <div style="text-align: center; height: 250px;">
     <img src="demo_assets/new_chat.png" alt="New Chat" style="max-height:100%; width:auto;">
     <b>New Chat</b>
   </div>
-  <div style="flex: 1 1 30%; text-align: center; height: 250px;">
+  <div style="text-align: center; height: 250px;">
     <img src="demo_assets/prompt_reply.png" alt="Prompt Reply" style="max-height:100%; width:auto;">
     <b>Prompt Reply</b>
   </div>
